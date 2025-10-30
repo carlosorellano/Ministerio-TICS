@@ -1,0 +1,74 @@
+<!-- Ejercicio 2 – Portal de noticias
+Diseña una página de noticias:
+•	Incluye <header>, <nav>, <main> y varios <article>.
+•	Cada artículo debe tener título, fecha (<time>) e imagen (<figure>).
+•	Añade un <footer> con créditos o contacto.
+•	<nav> con secciones (Inicio, Noticias, Contacto). -->
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Noticias del Día</h1>
+        <p>Tu portal informativo actualizado</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Avances en Inteligencia Artificial</h2>
+            <time datetime="2025-10-16">16 de octubre de 2025</time>
+            <figure>
+                <img src="https://cdn-anknc.nitrocdn.com/THjWwserJCTJkOMytPktxTenjJnVThHZ/assets/images/optimized/rev-d3abdfe/thecloud.group/wp-content/uploads/2022/10/Hacia-donde-va-la-inteligencia-artificial-IA-y-donde-puede-llegar3-1024x683.jpg" alt="IA y tecnología">
+                <figcaption>La IA continúa transformando la tecnología moderna.</figcaption>
+            </figure>
+            <p>
+                Expertos anuncian nuevos modelos de inteligencia artificial capaces de resolver
+                problemas complejos con mayor precisión y rapidez, impactando sectores como la salud y la educación.
+            </p>
+        </article>
+
+        <article>
+            <h2>La economía global muestra señales de recuperación</h2>
+            <time datetime="2025-10-15">15 de octubre de 2025</time>
+            <figure>
+                <img src="https://www.marketeroslatam.com/wp-content/uploads/2023/05/tipos-de-economia.jpg" alt="Economía global">
+                <figcaption>Los mercados internacionales comienzan a estabilizarse.</figcaption>
+            </figure>
+            <p>
+                Tras meses de incertidumbre, varios indicadores económicos apuntan a una recuperación
+                moderada en distintas regiones del mundo, impulsada por la innovación tecnológica.
+            </p>
+        </article>
+
+        <article>
+            <h2>Nuevas medidas ambientales en las grandes ciudades</h2>
+            <time datetime="2025-10-14">14 de octubre de 2025</time>
+            <figure>
+                <img src="img/ambiente1.jpeg">
+                <figcaption>Campañas buscan reducir la contaminación urbana.</figcaption>
+            </figure>
+            <p>
+                Gobiernos locales implementan políticas más estrictas para controlar las emisiones
+                y fomentar el uso de energías limpias, en respuesta a la crisis climática.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portal de Noticias - Creado por Carlos Andrés Orellano Higuita</p>
+        <p>Contacto: <a href="mailto:carlos@noticias.com" style="color:#00BFFF;">carlos@noticias.com</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!-- Ejercicio 1 – Página personal
+Crea una página con tu biografía usando etiquetas:
+•	<header> con tu nombre, edad, foto y donde vives.
+•	<main> con una sección “Sobre mí”.
+•	<aside> con hobbies o intereses estructurados en listas para mejor presentación.
+•	<footer> con tus redes sociales.
+________________________________________
+🔹 Ejercicio 2 – Portal de noticias
+Diseña una página de noticias:
+•	Incluye <header>, <nav>, <main> y varios <article>.
+•	Cada artículo debe tener título, fecha (<time>) e imagen (<figure>).
+•	Añade un <footer> con créditos o contacto.
+•	<nav> con secciones (Inicio, Noticias, Contacto). -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Carlos Andrés Orellano Higuita</h1>
+        <p>Edad: 32 años</p>
+        <p>Vivo en Barranquilla, Colombia</p>
+        <img src="img/CarlosFoto.jpg" alt="Foto de perfil">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy una persona apasionada por la tecnología, la programación y el aprendizaje constante.
+                Me gusta desarrollar proyectos web y ayudar a otros a aprender sobre el mundo digital.
+            </p>
+        </section>
+
+        <section class="tecnologias">
+            <h2>Tecnologías que uso</h2>
+            <div class="iconos">
+                <div class="tecnologia">
+                    <img src="https://skillicons.dev/icons?i=html" alt="HTML5">
+                    <span class="nombre">HTML5</span>
+
+                    
+                </div>
+                <div class="tecnologia">
+                    <img src="https://skillicons.dev/icons?i=css" alt="CSS3">
+                    <span class="nombre">CSS3</span>
+                </div>
+                <div class="tecnologia">
+                    <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript">
+                    <span class="nombre">JavaScript</span>
+                </div>
+                <div class="tecnologia">
+                    <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap">
+                    <span class="nombre">Bootstrap</span>
+                </div>
+                <div class="tecnologia">
+                    <img src="https://skillicons.dev/icons?i=react" alt="React">
+                    <span class="nombre">React</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <aside>
+        <h3>Mis hobbies e intereses</h3>
+        <ul>
+            <li>Programar y aprender nuevos lenguajes</li>
+            <li>Escuchar música y tocar guitarra</li>
+            <li>Leer sobre ciencia y tecnología</li>
+            <li>Salir a caminar o montar bicicleta</li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>Sígueme en mis redes sociales:</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+        <p>&copy; 2025 - Carlos Andrés Orellano Higuita</p>
+    </footer>
+</body>
+
+</html>
